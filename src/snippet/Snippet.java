@@ -11,15 +11,16 @@ public class Snippet {
 			System.out.println(values.get(i));
 			
 		}
+		//trying conflict
 		System.out.println("hello");
 		for(int i:values) {
 			System.out.println(i);
 		}
-		System.out.println("hello");
+		System.out.println("hello1");
 		
 		values.forEach(i->System.out.println(i));
 		System.out.println("");
-		System.out.println("hello");
+		System.out.println("hello2");
 		
 	}
 }
